@@ -9,7 +9,7 @@ pipeline {
             
             
             steps{
-                git branch: 'main', url: 'git url: "https://github.com/shubhamsinglaip/Dockerfile-and-app.py.git"'
+                git branch: 'main', credentialsId: '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', url: 'git url: "https://github.com/shubhamsinglaip/Dockerfile-and-app.py.git"'
                 stash 'source'
                 
                 
