@@ -12,7 +12,7 @@ pipeline
             steps
             {
                 sh'git init'
-                sh'rm -rf first'
+                
                 sh'git clone https://github.com/apoorvasahu25/first.git'
                 sh 'echo "multi-node-demo-1"'
                 stash(name: 'source')
